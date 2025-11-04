@@ -25,15 +25,19 @@ Due to the tree structure of a Flutter project for widgets, there exists parent-
 ## List all the widgets you used in this project and explain their functions.
 The widgets I used and its functions in this project are the following:
 1. MyApp
+
 Function: Acts as the root widget that starts the entire application
 
 2. MyHomePage
+
 Function: Acts as the homepage of the application
 
 3. InfoCard
+
 Function: Displays custom information such as NPM, name, and class
 
 4. ItemCard
+
 Function: Acts a a clickable button which presents text when clicked.
 
 ## What is the function of the MaterialApp widget? Explain why this widget is often used as the root widget.
