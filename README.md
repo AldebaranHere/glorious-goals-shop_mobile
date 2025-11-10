@@ -69,6 +69,28 @@ Widget build(BuildContext context) {
 ## Explain the concept of a “hot reload” in Flutter and how it differs from a “hot restart”.
 Hot reload is a feature which allows Flutter developers to examine and see code changes quickly without having to restart the entire app [1]. Hot reload is different from hot restart because hot reload takes the code changes and puts it into a virtual machine and rebuilds the widget tree while preserving the app state. In other words, it does not rerun main() or initState(). As for hot restart, it takes the code changes, puts it into a virtual machine, and restarts the Flutter app which causes the app state to be lost. These two concepts can be described as a player in a game. If a player is on level 25 of a game with a white shirt and the developers want to change the colour of the shirt to green, then hot reload changes the colour of the shirt to green and lets the player stay on level 25 of the game. As for hot restart, it will change the colour of the shirt to green and resets the player to level 1 of the game.
 
+# Assignment 8
+
+## Explain the difference between Navigator.push() and Navigator.pushReplacement() in Flutter. In what context of your application is each best used?
+
+Placeholder
+
+
+## How do you use hierarchy widget like Scaffold, AppBar, dan Drawer to build a consistent page structure in the your application?
+
+Placeholder
+
+
+##  In the context of user interface design, what do you think is the advantages of using layout widget like Padding, SingleChildScrollView, and ListView when displaying form elements? Provide usage examples from your application.
+
+Placeholder
+
+
+## How do you set the color theme so that your Football Shop have a visual identity that is consistent with the shop brand.
+
+Placeholder
+
+
 # Sources
 
 [1]. 08 - Introduction to Dart & Flutter
