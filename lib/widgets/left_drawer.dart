@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gloriousgoalsshop_mobile/screens/menu.dart';
-import 'package:gloriousgoalsshop_mobile/screens/newslist_form.dart';
+import 'package:gloriousgoalsshop_mobile/screens/productlist_form.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});

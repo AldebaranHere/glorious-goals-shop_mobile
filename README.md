@@ -73,22 +73,21 @@ Hot reload is a feature which allows Flutter developers to examine and see code 
 
 ## Explain the difference between Navigator.push() and Navigator.pushReplacement() in Flutter. In what context of your application is each best used?
 
-Placeholder
+The main usage of the Navigator class is to manage the routing in a Flutter project. Even though Navigator.push() and Navigator.pushReplacement() are similar, they perform a different operation on the stack of routes. Consider an arbitrary stack of routes S = [webpage_1, webpage_2, webpage_3, ..., webpage_(n-1), webpage_n] for some positive integer bigger than 0 (where webpage_n is at the top of the stack). If Navigator.push() were to be called on some webpage_(n+1), then the stack of routes would now be S = [webpage_1, webpage_2, webpage_3, ..., webpage_(n-1), webpage_n, webpage_(n+1)]. In more simple terms, the Navigator.push() method adds a new webpage to the stack of routes without changing any of the pre-existing webpages in the stack. In contrast to Navigator.push(), Navigator.pushReplacement() changes the top of the stack. Formally, this can be described as an operation on the stack of routes such that it modifies the top of the stack by changing it with a different webpage or: S = [webpage_1, webpage_2, webpage_3, ...,  webpage_(n-1), webpage_(n+1)] when Navigator.pushReplacement() is called on webpage_(n+1). Here, webpage_(n) is removed from the stack which is different from Navigator.push() where it keeps it in the stack. In the context of my application, I use Navigator.push() in product_card.dart and I use Navigator.pushReplacement() in productlist_form.dart.
 
 
 ## How do you use hierarchy widget like Scaffold, AppBar, dan Drawer to build a consistent page structure in the your application?
 
-Placeholder
-
+The concept of hierarchy allows numerous small, reusable widgets to coordinate with each other to represent something bigger and more complex. Widgets in a hierarchy can also inherit information from their parent widgets. In my application, for example, I use Scaffold in menu.dart and productlist_form, AppBar in menu.dart, and Drawer in left_drawer.dart to manage a coherent structure. 
 
 ##  In the context of user interface design, what do you think is the advantages of using layout widget like Padding, SingleChildScrollView, and ListView when displaying form elements? Provide usage examples from your application.
 
-Placeholder
+Layout widgets have numerous benefits for an application. For the widget Padding, it adds space around around the child which improves the UI/UX of the widget and developers can modify the padding to their liking. A use case of this Padding widget in my application is in menu.dart in the body part of Scaffold. For SingleChildScrollView, this enables a single child widget, such as a column, to have a scrollable feature when it exceeds the screen space of a device. A use case of this widget is in productlist_form.dart. As for ListView, it can be used to display a list of options in a drawer efficiently. A use case of this widget is in left_drawer.dart.
 
 
 ## How do you set the color theme so that your Football Shop have a visual identity that is consistent with the shop brand.
 
-Placeholder
+To set the colour theme of my football shop to have a visual identity that is consistent with the shop brand by using hues and gradiations of one colour and use distinct colours only when necessary. For example, if the main colour of my shop is green, then the colours of my shop may consist of light green, green, dark green, and more different variations of green.
 
 
 # Sources

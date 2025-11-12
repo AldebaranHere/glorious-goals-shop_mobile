@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gloriousgoalsshop_mobile/screens/newslist_form.dart';
+import 'package:gloriousgoalsshop_mobile/screens/productlist_form.dart';
 import 'package:gloriousgoalsshop_mobile/screens/menu.dart';
 
 class ItemCard extends StatelessWidget {

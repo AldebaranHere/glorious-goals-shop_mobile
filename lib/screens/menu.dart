@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gloriousgoalsshop_mobile/widgets/left_drawer.dart';
-import 'package:gloriousgoalsshop_mobile/widgets/news_card.dart';
+import 'package:gloriousgoalsshop_mobile/widgets/product_card.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
