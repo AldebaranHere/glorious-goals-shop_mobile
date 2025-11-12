@@ -82,7 +82,7 @@ The concept of hierarchy allows numerous small, reusable widgets to coordinate w
 
 ##  In the context of user interface design, what do you think is the advantages of using layout widget like Padding, SingleChildScrollView, and ListView when displaying form elements? Provide usage examples from your application.
 
-Layout widgets have numerous benefits for an application. For the widget Padding, it adds space around around the child which improves the UI/UX of the widget and developers can modify the padding to their liking. A use case of this Padding widget in my application is in menu.dart in the body part of Scaffold. For SingleChildScrollView, this enables a single child widget, such as a column, to have a scrollable feature when it exceeds the screen space of a device. A use case of this widget is in productlist_form.dart. As for ListView, it can be used to display a list of options in a drawer efficiently. A use case of this widget is in left_drawer.dart.
+Layout widgets have numerous benefits for an application. For the widget Padding, it adds space around around the child which improves the UI/UX of the widget and developers can modify the padding to their liking [4]. A use case of this Padding widget in my application is in menu.dart in the body part of Scaffold. For SingleChildScrollView, this enables a single child widget, such as a column, to have a scrollable feature when it exceeds the screen space of a device. A use case of this widget is in productlist_form.dart. As for ListView, it can be used to display a list of options in a drawer efficiently. A use case of this widget is in left_drawer.dart.
 
 
 ## How do you set the color theme so that your Football Shop have a visual identity that is consistent with the shop brand.
@@ -97,3 +97,7 @@ To set the colour theme of my football shop to have a visual identity that is co
 [2]. https://api.flutter.dev/flutter/widgets/BuildContext-class.html
 
 [3]. https://api.flutter.dev/flutter/material/MaterialApp-class.html
+
+[4]. https://api.flutter.dev/flutter/widgets/Padding-class.html
+
+[5]. 
