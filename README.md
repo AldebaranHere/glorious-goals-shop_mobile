@@ -89,6 +89,35 @@ Layout widgets have numerous benefits for an application. For the widget Padding
 
 To set the colour theme of my football shop to have a visual identity that is consistent with the shop brand by using hues and gradiations of one colour and use distinct colours only when necessary. For example, if the main colour of my shop is green, then the colours of my shop may consist of light green, green, dark green, and more different variations of green.
 
+# Assignment 9
+
+## Explain why we need to create a Dart model when fetching/sending JSON data. What are the consequences of directly mapping Map<String, dynamic> without using a model (in terms of type validation, null safety, and maintainability)?
+
+Because it helps a lot with maintainability, null safety, and type safety. Without using a model, the risk of data mismanagement is high. Moreover, Dart is a different language from JavaScript. Even though JavaScript can access JSON files easily, Dart does not exactly have the same capability. The solution to this is by modifying a JSON file into something Dart can access which is a model in Dart.
+
+## What is the purpose of the http and CookieRequest packages in this assignment? Explain the difference between their roles.
+
+http is mainly used to make basic requests to the web. Unlike http, CookieRequest manages the stateful data of cookies which are sent between the client and the server. http handles crucial communication, while the CookieRequest manages an additional layer of information to make the http protocol stateful.
+
+## Explain why the CookieRequest instance needs to be shared across all components in the Flutter application.
+
+The CookieRequest instance needs to be shared across all components in the Flutter application so that data from one state can be transfered to another easily, which maintains the user experience of the app.
+
+## Explain the connectivity configuration required for Flutter to communicate with Django. Why do we need to add 10.0.2.2 to ALLOWED_HOSTS, enable CORS and SameSite/cookie settings, and add internet access permission in Android? What would happen if these configurations were not set correctly?
+
+This is needed so that any input that a user gives to Flutter would then be forwarded to Django for further processing since Django is the backend of the project in a Flutter-Django project. Adding 10.0.2.2 to ALLOWED_HOSTS, enabling CORS and SameSite/cookie settings, and adding internet access permission in Android is necessary because these are the parts that connect the Flutter part of a project to the Django part of a project. If the configurations were not set correctly, then data loss may occur or errors could happen whenever user input is given to the website.
+
+## Describe the data transmission mechanism—from user input to being displayed in Flutter.
+
+First, user input is first accepted by Flutter. Depending on which part of the application the input is, it may process or handle any data that it needs to manage. Whenever a user switches to a different part of the application, the data would then be transfered through CookieRequest to maintain the state of the application. Any necessary information is displayed to the user by Flutter.
+
+## Explain the authentication mechanism for login, registration, and logout—from entering account data in Flutter to Django’s authentication process and displaying the menu in Flutter.
+
+For registration, the user would give their data to Flutter and then sends it to Flutter. When Flutter receives this data, it sends a secure request (for example, POST) to a specific location in the Django backend. Django would then receive that request and validates any data that is needed. When it is successful, Django respeonds to Flutter by giving a success message. This works similarly for login and logout for both Flutter and Django.
+
+##  Explain how you implemented the checklist above step-by-step (not just following a tutorial).
+
+
 
 # Sources
 
